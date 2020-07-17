@@ -1,0 +1,402 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+html {
+    font-size: 62.5%;
+}
+*/
+
+body {
+    font-family: "Montserrat", sans-serif;
+    background-color: #000;
+    color: #fff;
+    padding: 0 3rem;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    border-top: rgb(255, 79, 0) 0.3rem solid;
+    color: rgb(255, 79, 0);
+    font-size: 3rem;
+    padding-top: 4rem;
+    letter-spacing: 0.5rem;
+    margin: 3rem;
+    text-align: center;
+}
+
+.navbar {
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar li {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    text-transform: uppercase;
+}
+
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+}
+
+.navbar a:hover {
+    border-bottom: rgb(255, 79, 0) 2px solid;
+}
+
+.header {
+    background-image: linear-gradient(
+        to right bottom, 
+        rgba(255, 79, 0, 0.5), 
+        rgba(255, 102, 0, 0.5)), 
+        url(img/HeroImage.jpg);
+    background-position: top;
+    background-size: cover;
+    height: 95vh;
+    position: relative;
+}
+
+.logo-box {
+    position: absolute;
+    top: 6rem;
+    left: 41rem;
+}
+
+.logo {
+    height: 4rem;
+}
+
+.text-box {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+
+.heading-primary {
+    margin-bottom: 6rem;
+    text-transform: uppercase;
+}
+
+.heading-primary-main {
+    color: rgb(255, 230, 194);
+    display: block;
+    font-size: 6rem;
+    letter-spacing: 3rem;
+    animation: moveInLeft 2s;
+}
+
+.heading-primary-sub {
+    display: block;
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 0.5rem;
+    animation: moveInRight 2s;
+}
+
+@keyframes moveInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-10rem);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+@keyframes moveInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(10rem);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+@keyframes moveInBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(3rem);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+.btn:link,
+.btn:visited {
+    border-radius: 10rem;
+    display: inline-block;
+    padding: 1.5rem 4rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.2s;
+}
+
+.btn:hover {
+    transform: translateY(-.3rem);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+}
+
+.btn:active {
+    transform: translateY(-.1rem);
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.2);
+}
+
+.btn-white {
+    background-color: #FFF;
+    color: #000;
+    font-weight: 800;
+}
+
+.btn-animated {
+    animation: moveInBottom 0.5s ease-out 0.75s;
+    animation-fill-mode: backwards;
+}
+
+
+
+/* ABOUT US SECTION START */
+.about-us-section p {
+    line-height: 2.5rem;
+    font-size: 2rem;
+    margin: 2rem 0;
+}
+
+.about-us-section li {
+    line-height: 2.5rem;
+    font-size: 1.5rem;
+    margin-left: 1.5rem;
+}
+
+.strikethrough {
+    text-decoration: line-through;
+}
+
+ol li a {
+    color: rgb(255, 79, 0);
+    text-decoration: none;
+    font-weight: 600;
+}
+/* ABOUT US SECTION END */
+
+
+
+/* LOCATIONS SECTION START */
+.locations-section p {
+    line-height: 2.5rem;
+    font-size: 2rem;
+    margin: 2rem 0;
+}
+
+.locations-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.locations-cards h3 {
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 0.5rem;
+}
+
+.locations-section-card img {
+    height: 350px;
+    width: 350px;
+    border: rgb(255, 79, 0) 5px solid;
+    border-radius: 15px;
+}
+
+.locations-section li {
+    list-style-type: none;
+    line-height: 2.5rem;
+    text-align: center;
+}
+/* LOCATIONS SECTION END */
+
+
+
+
+/* TOUR GUIDES SECTION START */
+.tour-guide-picture {
+    height: 350px;
+    width: 350px;
+}
+
+.tour-guides-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.tour-guides-gallery h3 {
+    padding-top: 40px;
+}
+/* TOUR GUIDES SECTION END */
+
+
+
+
+/* TESTIMONIALS SECTION START */
+.testimonial-card img {
+    border-radius: 100%;
+    height: 150px;
+    width: 150px;
+    margin: 0 10px;
+}
+
+.testimonial-card {
+    display: flex;
+    align-items: center;
+}
+
+.testimonial-card blockquote {
+    width: 500px;
+    margin: 0 20px 0 20px;
+}
+
+#middle-testimonial {
+    justify-content: flex-end;
+}
+
+.testimonial-card cite {
+    letter-spacing: 0.75rem;
+    font-weight: 800;
+}
+/* TESTIMONIALS SECTION END */
+
+
+
+/* FOOTER START */
+footer {
+    background-color: rgb(51, 51, 51);
+    height: 300px;
+    margin-top: 80px;
+    padding-top: 10px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: rgb(255, 79, 0);
+}
+
+footer p {
+    margin: 10px;
+}
+
+.footer-columns-wrapper {
+    display: flex;
+}
+
+.footer-column {
+    flex-basis: 33%;
+}
+
+footer h4 {
+    text-align: center;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+    padding-bottom: 20px;
+}
+
+footer p {
+    padding: 5px 0 5px 0;
+}
+
+.footer-column ul li {
+    list-style-type: none;
+}
+
+#footer-social-icons {
+    display: flex;
+    justify-content: space-around;
+    font-size: 26px;
+    padding: 10px 0 10px 0;
+}
+
+#footer-links-middle {
+    text-align: center;
+}
+
+.footer-links-li {
+    padding: 10px 0 10px 0;
+}
+
+#footer-column-contact-us {
+    display: flex;
+    flex-direction: column;
+}
+
+#footer-column-contact-us input {
+    height: 30px;
+    margin: 10px 0 10px 0;
+}
+
+#footer-column-contact-us input:focus {
+    outline-color:rgb(255, 79, 0);
+}
+
+
+#footer-column-contact-us textarea {
+    margin: 20px 0 20px 0;
+    height: 100px;
+}
+
+#footer-column-contact-us textarea:focus {
+    outline-color:rgb(255, 79, 0);
+}
+
+#footer-column-contact-us button {
+    border-radius: 10rem;
+    text-transform: uppercase;
+    background-color: #FFF;
+    cursor: pointer;
+    color: #000;
+    font-weight: 800;
+    height: 30px;
+    width: 150px;
+    margin: 0 auto;
+}
+
+#footer-column-contact-us button:hover {
+    transform: translateY(-.3rem);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+}
+
+#footer-column-contact-us button:active {
+    transform: translateY(-.1rem);
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.2);
+}
+
+.footer-bottom {
+    background-color: rgb(29, 29, 29);
+    text-align: center;
+}
+
+/* FOOTER END */
