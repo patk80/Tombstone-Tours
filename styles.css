@@ -52,7 +52,7 @@ h2 {
 }
 
 .navbar a:hover {
-    border-bottom: rgb(255, 79, 0) 2px solid;
+    border-bottom: rgb(255, 79, 0) 0.125rem solid;
 }
 
 .header {
@@ -174,7 +174,7 @@ h2 {
 }
 
 
-
+/*************************************************************************************************************************/
 /* ABOUT US SECTION START */
 .about-us-section p {
     line-height: 2.5rem;
@@ -184,7 +184,7 @@ h2 {
 
 .about-us-section li {
     line-height: 2.5rem;
-    font-size: 1.5rem;
+    font-size: 2rem;
     margin-left: 1.5rem;
 }
 
@@ -192,15 +192,17 @@ h2 {
     text-decoration: line-through;
 }
 
-ol li a {
+.about-us-section ol li a {
     color: rgb(255, 79, 0);
     text-decoration: none;
     font-weight: 600;
 }
 /* ABOUT US SECTION END */
+/*************************************************************************************************************************/
 
 
 
+/*************************************************************************************************************************/
 /* LOCATIONS SECTION START */
 .locations-section p {
     line-height: 2.5rem;
@@ -221,10 +223,10 @@ ol li a {
 }
 
 .locations-section-card img {
-    height: 350px;
-    width: 350px;
-    border: rgb(255, 79, 0) 5px solid;
-    border-radius: 15px;
+    height: 21.875rem;
+    width: 21.875rem;
+    border: rgb(255, 79, 0) 0.3125rem solid;
+    border-radius: 15%;
 }
 
 .locations-section li {
@@ -233,14 +235,27 @@ ol li a {
     text-align: center;
 }
 /* LOCATIONS SECTION END */
+/*************************************************************************************************************************/
 
 
 
-
+/*************************************************************************************************************************/
 /* TOUR GUIDES SECTION START */
 .tour-guide-picture {
-    height: 350px;
-    width: 350px;
+    height: 21.875rem;
+    width: 21.875rem;
+    transition: all 1s;
+}
+
+.tour-guides-gallery img:hover {
+    height: 20rem;
+    width: 20rem;
+}
+
+.tour-guide-div:hover {
+    color: rgb(255, 79, 0);
+    font-size: 1.25rem;
+    transition: font-size 1s;
 }
 
 .tour-guides-gallery {
@@ -251,19 +266,21 @@ ol li a {
 }
 
 .tour-guides-gallery h3 {
-    padding-top: 40px;
+    padding-top: 2.5rem;
 }
+
 /* TOUR GUIDES SECTION END */
+/*************************************************************************************************************************/
 
 
 
-
+/*************************************************************************************************************************/
 /* TESTIMONIALS SECTION START */
 .testimonial-card img {
     border-radius: 100%;
-    height: 150px;
-    width: 150px;
-    margin: 0 10px;
+    height: 9.375rem;
+    width: 9.375rem;
+    margin: 0 0.625rem;
 }
 
 .testimonial-card {
@@ -272,8 +289,8 @@ ol li a {
 }
 
 .testimonial-card blockquote {
-    width: 500px;
-    margin: 0 20px 0 20px;
+    width: 31.25rem;
+    margin: 0 1.25rem 0 1.25rem;
 }
 
 #middle-testimonial {
@@ -283,17 +300,20 @@ ol li a {
 .testimonial-card cite {
     letter-spacing: 0.75rem;
     font-weight: 800;
+    font-size: 1.25rem;
 }
 /* TESTIMONIALS SECTION END */
+/*************************************************************************************************************************/
 
 
 
+/*************************************************************************************************************************/
 /* FOOTER START */
 footer {
     background-color: rgb(51, 51, 51);
-    height: 300px;
-    margin-top: 80px;
-    padding-top: 10px;
+    height: 18.75rem;
+    margin-top: 5rem;
+    padding-top: 0.625rem;
 }
 
 footer a {
@@ -306,7 +326,7 @@ footer a:hover {
 }
 
 footer p {
-    margin: 10px;
+    margin: 0.625rem;
 }
 
 .footer-columns-wrapper {
@@ -318,26 +338,31 @@ footer p {
 }
 
 footer h4 {
+    color: rgb(255, 79, 0);
     text-align: center;
     font-weight: 800;
     text-transform: uppercase;
     letter-spacing: 0.3rem;
-    padding-bottom: 20px;
+    padding-bottom: 1.25rem;
 }
 
 footer p {
-    padding: 5px 0 5px 0;
+    padding: 0.3125rem 0 0.3125rem 0;
 }
 
 .footer-column ul li {
     list-style-type: none;
 }
 
+.footer-phone-email-icons {
+    padding-right: 0.625rem;
+}
+
 #footer-social-icons {
     display: flex;
     justify-content: space-around;
-    font-size: 26px;
-    padding: 10px 0 10px 0;
+    font-size: 1.625rem;
+    padding: 0.625rem 0 0.625rem 0;
 }
 
 #footer-links-middle {
@@ -345,7 +370,7 @@ footer p {
 }
 
 .footer-links-li {
-    padding: 10px 0 10px 0;
+    padding: 0.625rem 0 0.625rem 0;
 }
 
 #footer-column-contact-us {
@@ -354,8 +379,8 @@ footer p {
 }
 
 #footer-column-contact-us input {
-    height: 30px;
-    margin: 10px 0 10px 0;
+    height: 1.875rem;
+    margin: 0.625rem 0 0.625rem 0;
 }
 
 #footer-column-contact-us input:focus {
@@ -364,39 +389,28 @@ footer p {
 
 
 #footer-column-contact-us textarea {
-    margin: 20px 0 20px 0;
-    height: 100px;
+    margin: 1.25rem 0 1.25rem 0;
+    height: 6.25rem;
 }
 
 #footer-column-contact-us textarea:focus {
     outline-color:rgb(255, 79, 0);
 }
 
-#footer-column-contact-us button {
-    border-radius: 10rem;
-    text-transform: uppercase;
-    background-color: #FFF;
-    cursor: pointer;
-    color: #000;
-    font-weight: 800;
-    height: 30px;
-    width: 150px;
-    margin: 0 auto;
-}
-
-#footer-column-contact-us button:hover {
-    transform: translateY(-.3rem);
-    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
-}
-
-#footer-column-contact-us button:active {
-    transform: translateY(-.1rem);
-    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.2);
+#contact-us-button {
+    height: 3rem;
+    width: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
 }
 
 .footer-bottom {
     background-color: rgb(29, 29, 29);
+    font-size: 0.875rem;
     text-align: center;
 }
 
 /* FOOTER END */
+/*************************************************************************************************************************/
