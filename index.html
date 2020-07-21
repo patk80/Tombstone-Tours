@@ -6,6 +6,7 @@
     <title>Tombstone Tours | Thrilling excursions for daring people</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="img/favicon-32x32.png">
     <script src="https://kit.fontawesome.com/7fe56f3963.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -17,7 +18,7 @@
                 <li><a href="#Locations"><i class="fas fa-thumbtack"></i> Locations</a></li>
                 <li><a href="#TourGuides"><i class="fas fa-users"></i> Tour Guides</a></li>
                 <li><a href="#Testimonials"><i class="fas fa-address-card"></i> Testimonials</a></li>
-                <li><a href="#"><i class="fas fa-envelope"></i> Contact Us</a></li>
+                <li><a href="#contact-us-form"><i class="fas fa-envelope"></i> Contact Us</a></li>
             </ul>
         </nav>
         <div class="logo-box">
@@ -30,7 +31,7 @@
                 <span class="heading-primary-sub">"Absolutely Killer Stuff!"</span>
             </h1>
 
-            <a href="#" class="btn btn-white btn-animated">Contact Us</a>
+            <a href="#contact-us-form" class="btn btn-white btn-animated">Contact Us</a>
         </div>
 
     </header>
@@ -43,7 +44,7 @@
         <ol>
             <li>Select a <a href="#Locations">location</a>.</li>
             <li>Choose a <a href="#TourGuides">tour guide</a>.</li>
-            <li><a href="#">Contact Us</a> to set it up!</li>
+            <li><a href="#contact-us-form">Contact Us</a> to set it up!</li>
         </ol>
     </section>
 
@@ -92,42 +93,42 @@
         <h2><i class="fas fa-users"></i> Our Tour Guides</h2>
 
         <div class="tour-guides-gallery">
-            <div>
+            <div class="tour-guide-div">
                 <h3>Chucky</h3>
                 <img src="img/ChuckyGrayscale.jpg" class="tour-guide-picture" alt="Chucky from Child's Play">
             </div>
 
-            <div>
+            <div class="tour-guide-div">
                 <h3>Freddy Krueger</h3>
                 <img src="img/FreddyKruegerGrayscale.jpg" class="tour-guide-picture" alt="Freddy Krueger from A Nightmare on Elm Street">
             </div>
 
-            <div>
+            <div class="tour-guide-div">
                 <h3>Ghostface</h3>
                 <img src="img/GhostfaceGrayscale.jpg" class="tour-guide-picture" alt="Ghostface from Scream">
             </div>
 
-            <div>
+            <div class="tour-guide-div">
                 <h3>Jason Vorhees</h3>
                 <img src="img/JasonVorheesGrayscale.jpg" class="tour-guide-picture" alt="Jason Vorhees from Friday the 13th">
             </div>
 
-            <div>
+            <div class="tour-guide-div">
                 <h3>Jigsaw</h3>
                 <img src="img/JigsawGrayscale.jpg" class="tour-guide-picture" alt="Jigsaw from Saw">
             </div>
 
-            <div>
+            <div class="tour-guide-div">
                 <h3>Michael Myers</h3>
                 <img src="img/MichaelMyersGrayscale.jpg" class="tour-guide-picture" alt="Michael Myers from Halloween">
             </div>
 
-            <div>
+            <div class="tour-guide-div">
                 <h3>Pennywise</h3>
                 <img src="img/PennywiseGrayscale.jpg" class="tour-guide-picture" alt="Pennywise from It">
             </div>
 
-            <div>
+            <div class="tour-guide-div">
                 <h3>Samara Morgan</h3>
                 <img src="img/SamaraMorganGrayscale.jpg" class="tour-guide-picture" alt="Samara Morgan from The Ring">
             </div>
@@ -166,6 +167,7 @@
                 <cite>&mdash;Carol Anne Freeling</cite>
             </div>
 
+
         </div>
     </section>
 
@@ -175,9 +177,9 @@
         <div class="footer-columns-wrapper">
             <div class="footer-column">
                 <h4>Tombstone Tours</h4>
-                <p>Tombstone Tours is a fictional company made up for educational purposes. I do not take credit or ownership for any of the images used</p>
-                <p><i class="fas fa-phone-alt"></i> (555) 555-5555</p>
-                <p><i class="fas fa-envelope"></i> email@email.com</p>
+                <p>Tombstone Tours is a fictional company made up solely for educational purposes. I do not take credit or ownership for any of the images used on this website.</p>
+                <p><i class="fas fa-phone-alt footer-phone-email-icons"></i> (555) 555-5555</p>
+                <p><i class="fas fa-envelope footer-phone-email-icons"></i> email@email.com</p>
                 <ul id="footer-social-icons">
                     <li><a href="#"><i class="fab fa-facebook"></i></a></li>
                     <li><a href="#"><i class="fab fa-instagram"></i></a></li>
@@ -199,11 +201,11 @@
             
             
             <div class="footer-column">
-                <h4>Contact Us</h4>
+                <h4 id="contact-us-form">Contact Us</h4>
                 <form action="#" id="footer-column-contact-us">
                     <input type="text" placeholder="Your email address">
                     <textarea name="#" id="" cols="25" rows="4" placeholder="Your message for us"></textarea>
-                    <button>Send</button>
+                    <a href="#" id="contact-us-button" class="btn btn-white">Contact Us</a>
                 </form>
             </div>
 
