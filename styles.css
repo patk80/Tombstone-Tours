@@ -17,19 +17,6 @@ body {
     padding: 0 3rem;
 }
 
-h1 {
-    font-size: 4rem;
-}
-
-h2 {
-    border-top: rgb(255, 79, 0) 0.3rem solid;
-    color: rgb(255, 79, 0);
-    font-size: 3rem;
-    padding-top: 4rem;
-    letter-spacing: 0.5rem;
-    margin: 3rem;
-    text-align: center;
-}
 
 .navbar {
     background-color: #000;
@@ -67,14 +54,8 @@ h2 {
     position: relative;
 }
 
-.logo-box {
-    position: absolute;
-    top: 6rem;
-    left: 41rem;
-}
-
-.logo {
-    height: 4rem;
+h1 { /* Tombstone Tours & Slogan Text */
+    font-size: 4rem;
 }
 
 .text-box {
@@ -171,6 +152,72 @@ h2 {
 .btn-animated {
     animation: moveInBottom 0.5s ease-out 0.75s;
     animation-fill-mode: backwards;
+}
+
+h2 { /* Section Headings */
+    border-top: rgb(255, 79, 0) 0.3rem solid;
+    color: rgb(255, 79, 0);
+    font-size: 3rem;
+    padding-top: 4rem;
+    letter-spacing: 0.5rem;
+    margin: 3rem;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 1200px) {
+    .heading-primary-main {
+        font-size: 5rem;
+        letter-spacing: 2rem;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    body {
+        padding: 0 2rem;
+    }
+
+    .navbar a {
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    .heading-primary-main {
+        font-size: 4.75rem;
+        letter-spacing: 1.5rem;
+    }
+    
+}
+
+@media screen and (max-width: 882px) {
+    .navbar a i {
+        display: block;
+        text-align: center;
+    }
+
+    .heading-primary-main {
+        font-size: 5rem;
+        letter-spacing: 0.5rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        padding: 0 1rem;
+    }
+
+    .navbar a {
+        font-size: 13px;
+    }
+
+    .heading-primary-main {
+        font-size: 4rem;
+    }
+    
+}
+
+@media screen and (max-width: 600px) {
+
 }
 
 
