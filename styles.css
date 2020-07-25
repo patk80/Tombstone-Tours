@@ -456,7 +456,7 @@ h2 { /* Section Headings */
 .tour-guide-div:hover {
     color: rgb(255, 79, 0);
     font-size: 1.25rem;
-    transition: font-size 1s;
+    transition: font-size 1s ease-in-out;
 }
 
 .tour-guides-gallery {
@@ -769,6 +769,14 @@ footer p {
     #contact-us-button {
         width: 8rem;
         font-size: 0.6875rem;
+    }
+
+}
+
+@media screen and (max-width: 475px) {
+
+    .footer-copyright-text {
+        display: block;
     }
 
 }
