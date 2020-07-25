@@ -45,17 +45,35 @@ body {
     border-bottom: rgb(255, 79, 0) 0.125rem solid;
 }
 
+.hamburger-menu {
+    display: none;
+}
+
 @media screen and (max-width: 866px) {
     .navbar li i {
         display: block;
         text-align: center;
     }
+
 }
 
 @media screen and (max-width: 775px) {
     .navbar a {
         display: none;
     }
+
+    .hamburger-menu {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .hamburger-icon {
+        font-size: 60px;
+        margin: 20px 30px 0 0;
+        color: rgb(240, 240, 240);
+        cursor: pointer;
+    }
+  
 }
 
 .header {
@@ -496,7 +514,6 @@ h2 { /* Section Headings */
     .testimonials-section h2 i{
         display: block;
     }
-
 
     .testimonials-section h2 {
         letter-spacing: 0.2rem;
