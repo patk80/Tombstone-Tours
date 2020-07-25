@@ -285,11 +285,11 @@ h2 { /* Section Headings */
     }
 
     .heading-primary-main {
-        font-size: 4rem;
+        font-size: 3.25rem;
     }
 
     .heading-primary-sub {
-        font-size: 1.5rem;
+        font-size: 1.25rem;
         font-weight: 500;
         letter-spacing: 0rem;
     }
@@ -517,6 +517,7 @@ h2 { /* Section Headings */
 
     .testimonials-section h2 {
         letter-spacing: 0.2rem;
+        font-size: 2.5rem;
     }
 
 }
@@ -558,7 +559,7 @@ h2 { /* Section Headings */
 
 @media screen and (max-width: 555px) {
     .testimonial-card blockquote {
-        width: 25rem;
+        width: 22rem;
         margin: 0 1rem 0 1rem;
     }
 
