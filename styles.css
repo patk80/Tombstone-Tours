@@ -725,6 +725,16 @@ footer p {
         font-size: 1.25rem;
     }
 
+    #footer-column-contact-us input {
+        margin: 0 auto;
+        width: 80%;
+    }
+    
+    #footer-column-contact-us textarea {
+        margin: 20px auto;
+        width: 80%;
+    }
+
 }
 
 @media screen and (max-width: 749px) {
@@ -755,20 +765,6 @@ footer p {
 
     #footer-column-contact-us {
         align-items: center;
-    }
-
-    #footer-column-contact-us input {
-        height: 1.875rem;
-        margin: 0.5rem 0 0.5rem 0;
-        width: 8rem;
-        text-align: center;
-    }
-    
-    #footer-column-contact-us textarea {
-        margin: 1rem 0 1rem 0;
-        height: 6rem;
-        width: 8rem;
-        text-align: center;
     }
 
 }
