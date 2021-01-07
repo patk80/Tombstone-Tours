@@ -711,6 +711,12 @@ footer p {
     }
 }
 
+@media screen and (max-width: 768px) {
+    .footer-columns-wrapper {
+        flex-direction: column;
+    }
+}
+
 @media screen and (max-width: 749px) {
 
     #footer-tombstone-tours-heading {
