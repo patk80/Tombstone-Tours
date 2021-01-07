@@ -735,6 +735,10 @@ footer p {
         width: 80%;
     }
 
+    .footer-bottom p {
+        font-size: 0.8rem;
+    }
+
 }
 
 @media screen and (max-width: 749px) {
@@ -753,11 +757,6 @@ footer p {
         padding-bottom: 1rem;
     }
 
-    footer p {
-        padding: 0.2rem 0 0.2rem 0;
-        margin: 0.2rem;
-    }
-
     #footer-social-icons {
         padding: 0.1rem;
         font-size: 1rem;
@@ -773,10 +772,6 @@ footer p {
 
     .footer-phone-email-icons {
         padding-right: 0.2rem;
-    }
-
-    footer p {
-        font-size: 0.7rem;
     }
 
     #contact-us-button {
