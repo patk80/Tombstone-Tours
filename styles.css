@@ -715,6 +715,16 @@ footer p {
     .footer-columns-wrapper {
         flex-direction: column;
     }
+
+    footer h4 {
+        font-size: 1.5rem;
+        margin: 30px 0;
+    }
+
+    footer p {
+        font-size: 1.25rem;
+    }
+
 }
 
 @media screen and (max-width: 749px) {
