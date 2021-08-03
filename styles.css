@@ -517,6 +517,11 @@ h2 { /* Section Headings */
     font-size: 1.25rem;
 }
 
+.testimonial-quote-callout {
+    color: rgb(255, 79, 0);
+    font-weight: 700;
+}
+
 @media screen and (max-width: 777px) {
     .testimonials-section h2 i{
         display: block;
