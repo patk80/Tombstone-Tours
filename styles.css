@@ -667,6 +667,8 @@ footer p {
 #footer-column-contact-us input {
     height: 1.875rem;
     margin: 0.625rem 0 0.625rem 0;
+    font-size: 12px;
+    font-family: "Montserrat", sans-serif;
 }
 
 #footer-column-contact-us input:focus {
@@ -676,6 +678,8 @@ footer p {
 #footer-column-contact-us textarea {
     margin: 1.25rem 0 1.25rem 0;
     height: 6.25rem;
+    font-size: 12px;
+    font-family: "Montserrat", sans-serif;
 }
 
 #footer-column-contact-us textarea:focus {
