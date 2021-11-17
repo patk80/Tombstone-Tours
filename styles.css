@@ -62,7 +62,7 @@ body {
         display: none;
     }
 
-    .hamburger-menu {
+    /* .hamburger-menu {
         display: flex;
         justify-content: flex-end;
     }
@@ -72,7 +72,7 @@ body {
         margin: 1.25rem 1.875rem 0 0;
         color: rgb(240, 240, 240);
         cursor: pointer;
-    }
+    } */
   
 }
 
